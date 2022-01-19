@@ -15,18 +15,18 @@ return {
 		{cockpit_device_id = devices.CONTROL_INTERFACE, down = control_commands.TrimApDisc, up = control_commands.TrimApDisc, value_down = 0, value_up = 1, name = _('TRIM/AP DISC Switch - DISC else NORM (2-way Switch)'), category = {_('Special For Joystick'), _('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 		{cockpit_device_id = devices.CONTROL_INTERFACE, down = control_commands.TrimApDisc, up = control_commands.TrimApDisc, value_down = 1, value_up = 0, name = _('TRIM/AP DISC Switch - NORM else DISC (2-way Switch)'), category = {_('Special For Joystick'), _('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 
-		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.RollTrim_ITER, value_pressed = -0.15, name = _('ROLL TRIM Wheel - R WING DN (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
-		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.RollTrim_ITER, value_pressed = 0.15, name = _('ROLL TRIM Wheel - L WING DN (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
+		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.RollTrim_ITER, value_pressed = -0.05, name = _('ROLL TRIM Wheel - R WING DN (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
+		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.RollTrim_ITER, value_pressed = 0.05, name = _('ROLL TRIM Wheel - L WING DN (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.RollTrim_ITER, value_pressed = -0.6, name = _('ROLL TRIM Wheel - R WING DN (Fast)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.RollTrim_ITER, value_pressed = 0.6, name = _('ROLL TRIM Wheel - L WING DN (Fast)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 
-		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.PitchTrim_ITER, value_pressed = -0.15, name = _('PITCH TRIM Wheel - NOSE DN (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
-		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.PitchTrim_ITER, value_pressed = 0.15, name = _('PITCH TRIM Wheel - NOSE UP (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
+		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.PitchTrim_ITER, value_pressed = -0.05, name = _('PITCH TRIM Wheel - NOSE DN (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
+		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.PitchTrim_ITER, value_pressed = 0.05, name = _('PITCH TRIM Wheel - NOSE UP (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.PitchTrim_ITER, value_pressed = -0.6, name = _('PITCH TRIM Wheel - NOSE DN (Fast)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.PitchTrim_ITER, value_pressed = 0.6, name = _('PITCH TRIM Wheel - NOSE UP (Fast)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 
-		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.YawTrim_ITER, value_pressed = -0.15, name = _('YAW TRIM Knob - L/CCW (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
-		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.YawTrim_ITER, value_pressed = 0.15, name = _('YAW TRIM Knob - R/CW (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
+		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.YawTrim_ITER, value_pressed = -0.05, name = _('YAW TRIM Knob - L/CCW (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
+		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.YawTrim_ITER, value_pressed = 0.05, name = _('YAW TRIM Knob - R/CW (Slow)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.YawTrim_ITER, value_pressed = -0.6, name = _('YAW TRIM Knob - L/CCW (Fast)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 		{cockpit_device_id = devices.CONTROL_INTERFACE, pressed = control_commands.YawTrim_ITER, value_pressed = 0.6, name = _('YAW TRIM Knob - R/CW (Fast)'), category = {_('Left Console'), _('MANUAL TRIM Panel'), _('Custom')}},
 
